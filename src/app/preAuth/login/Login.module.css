@@ -1,0 +1,31 @@
+.image1 {
+  animation: scrollyanime 20s linear 2s infinite;
+}
+.image3 {
+  animation: scrollyanime 20s linear 2s infinite;
+}
+.image2 {
+  animation: scrollyanime 20s linear 2s infinite reverse;
+}
+@keyframes scrollyanime {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+.border:focus-within {
+  border: 1px solid #ff8541;
+  border-radius: 8px;
+  border: 1px solid #ff8541;
+}
+.checkbox:checked:checked + label::before {
+  border: 1px solid #000;
+  background-color: #ff8541;
+  border-color: #ff8541;
+}
+.focus:focus-within {
+  border: 1px solid #ff8541;
+}
